@@ -4,8 +4,9 @@
 ## To Build Locally
 Make Sure You have Node and npm install
 
+
 ## To Build From DockerFile
-docker build -t transcript-service:latest .
+docker build -t transcript-service:latest .\n
 docker run -d -p 8080:3000 --name transcriptservice transcript-service
 
 ## From Docker Compose 
