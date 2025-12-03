@@ -28,7 +28,9 @@ Watch a Loom video demonstrating all features: [ Demo Video](https://drive.googl
 
 Your backend APIs are deployed at:  
 [backend-url](http://80.225.222.33:8080)
-[backend-file]([http://80.225.222.33:8080](https://github.com/aqrabminto/test_Attack_Capital/tree/main/test))
+
+And backend file at
+[backend-file](http://80.225.222.33:8080](https://github.com/aqrabminto/test_Attack_Capital/tree/main/test))
 
 ---
 
