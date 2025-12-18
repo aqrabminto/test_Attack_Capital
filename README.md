@@ -1,44 +1,72 @@
 # 📱 MediNote Recorder
 
 A Flutter-based audio recording app with background recording, chunked uploads, and cloud storage support.
--Medical Transcription App 
--Build a Flutter app that doctors can trust with their patient consultations. 
--The app records audio during medical visits and streams it to a backend for AI transcription. 
--Sounds simple? Here's the catch—it must work flawlessly when: 
--● Doctors get phone calls mid-recording 
--● They switch to other apps to check drug databases 
--● The hospital WiFi drops out 
--● Their phone dies at 60% battery (happens more than you'd think) 
-Core Requirements 
-1. Real-Time Audio Streaming 
-● Stream audio chunks to backend during recording (not after) 
-● Continue recording with phone locked or app minimized 
-● Handle chunk ordering, retries, and network failures 
-● Must demonstrate native microphone access with proper gain control 
-2. Bulletproof Interruption Handling Must survive without losing data: 
-● Phone calls (auto pause/resume) 
-● App switching (EMR, calculator, camera) 
-● Network outages (queue locally, retry when back) 
-● Phone restarts (recover unsent chunks) 
-● Memory pressure (when system kills other apps) 
-3. Theme & Language (State Management Test) Must survive with no restart required: 
-● Manual + system dark/light mode (persisted) 
-● English/Hindi full UI language switching (persisted, no restart required) 
-Technical Stack 
-● Flutter (no Expo/React Native - we need native performance) 
-● Platform channels for native features when needed 
-● Android foreground service + iOS background audio 
-API Reference & Resources 
-�
-�
-Full API Documentation: 
-https://docs.google.com/document/d/1hzfry0fg7qQQb39cswEychYMtBiBKDAqIg6LamAKENI/ed
-it?usp=sharing 
-�
-�
-Postman Collection (mock backend): 
-https://drive.google.com/file/d/1rnEjRzH64ESlIi5VQekG525Dsf8IQZTP/view?usp=sharing 
+
 ---
+
+##  Medical Transcription App
+
+Build a Flutter app that doctors can trust with their patient consultations.
+
+The app records audio during medical visits and streams it to a backend for AI transcription.
+
+Sounds simple? Here's the catch—it must work flawlessly when:
+
+- Doctors get phone calls mid-recording  
+- They switch to other apps to check drug databases  
+- The hospital WiFi drops out  
+- Their phone dies at 60% battery (happens more than you'd think)
+
+---
+
+## Core Requirements
+
+### 1. Real-Time Audio Streaming
+
+- Stream audio chunks to backend during recording (not after)  
+- Continue recording with phone locked or app minimized  
+- Handle chunk ordering, retries, and network failures  
+- Must demonstrate native microphone access with proper gain control  
+
+---
+
+### 2. Bulletproof Interruption Handling
+
+Must survive without losing data:
+
+- Phone calls (auto pause/resume)  
+- App switching (EMR, calculator, camera)  
+- Network outages (queue locally, retry when back)  
+- Phone restarts (recover unsent chunks)  
+- Memory pressure (when system kills other apps)  
+
+---
+
+### 3. Theme & Language (State Management Test)
+
+Must survive with no restart required:
+
+- Manual + system dark/light mode (persisted)  
+- English/Hindi full UI language switching (persisted, no restart required)  
+
+---
+
+## Technical Stack
+
+- Flutter (no Expo/React Native - we need native performance)  
+- Platform channels for native features when needed  
+- Android foreground service + iOS background audio  
+
+---
+
+## API Reference & Resources
+
+### Full API Documentation
+https://docs.google.com/document/d/1hzfry0fg7qQQb39cswEychYMtBiBKDAqIg6LamAKENI/edit?usp=sharing
+
+### Postman Collection (mock backend)
+https://drive.google.com/file/d/1rnEjRzH64ESlIi5VQekG525Dsf8IQZTP/view?usp=sharing
+
 
 ## 🏷 Badges
 
