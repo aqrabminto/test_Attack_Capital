@@ -1,14 +1,14 @@
 # 📱 MediNote Recorder
 
 A Flutter-based audio recording app with background recording, chunked uploads, and cloud storage support.
-The Assignment: Medical Transcription App 
-Build a Flutter app that doctors can trust with their patient consultations. 
-The app records audio during medical visits and streams it to a backend for AI transcription. 
-Sounds simple? Here's the catch—it must work flawlessly when: 
-● Doctors get phone calls mid-recording 
-● They switch to other apps to check drug databases 
-● The hospital WiFi drops out 
-● Their phone dies at 60% battery (happens more than you'd think) 
+-Medical Transcription App 
+-Build a Flutter app that doctors can trust with their patient consultations. 
+-The app records audio during medical visits and streams it to a backend for AI transcription. 
+-Sounds simple? Here's the catch—it must work flawlessly when: 
+-● Doctors get phone calls mid-recording 
+-● They switch to other apps to check drug databases 
+-● The hospital WiFi drops out 
+-● Their phone dies at 60% battery (happens more than you'd think) 
 Core Requirements 
 1. Real-Time Audio Streaming 
 ● Stream audio chunks to backend during recording (not after) 
